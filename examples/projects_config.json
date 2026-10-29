@@ -1,0 +1,77 @@
+{
+  "report": {
+    "title": "Project delivery status",
+    "subtitle": "Portfolio review | Synthetic demonstration data",
+    "orientation": "portrait"
+  },
+  "kpis": [
+    {
+      "id": "count",
+      "label": "Projects",
+      "operation": "count_rows"
+    },
+    {
+      "id": "progress",
+      "label": "Mean completion",
+      "operation": "average",
+      "column": "progress",
+      "unit": "%"
+    }
+  ],
+  "dataset": {
+    "columns": [
+      {
+        "source": "project",
+        "label": "Project"
+      },
+      {
+        "source": "team",
+        "label": "Team"
+      },
+      {
+        "source": "status",
+        "label": "Status"
+      },
+      {
+        "source": "progress",
+        "label": "Completion (%)"
+      }
+    ]
+  },
+  "charts": [
+    {
+      "id": "status",
+      "title": "Projects by status",
+      "type": "pie",
+      "group_by": "status"
+    }
+  ],
+  "tables": [
+    {
+      "id": "team_status",
+      "title": "Projects by team and status",
+      "group_by": [
+        "team",
+        "status"
+      ],
+      "columns": [
+        "team",
+        "status",
+        "value"
+      ],
+      "include_total": true,
+      "max_rows": 30
+    },
+    {
+      "id": "completion",
+      "title": "Mean completion by team (%)",
+      "group_by": "team",
+      "aggregation": "average",
+      "column": "progress",
+      "columns": [
+        "team",
+        "value"
+      ]
+    }
+  ]
+}

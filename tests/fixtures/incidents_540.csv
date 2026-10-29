@@ -1,0 +1,541 @@
+proyecto,estado,prioridad,fecha_creacion,horas
+Córdoba,Resuelta,Media,2026-01-12,
+Boreal,Abierta,Media,2026-02-06,19.9
+Atlas,Cancelada,Media,2026-02-25,14.5
+Boreal,En curso,Crítica,2026-01-01,5.9
+Atlas,Resuelta,Alta,2026-04-29,3.0
+Córdoba,En curso,Alta,2026-01-10,16.7
+Atlas,Abierta,Baja,2026-03-30,4.6
+Boreal,En curso,Alta,2026-02-15,19.6
+Atlas,Abierta,Alta,2026-04-17,8.0
+Atlas,Abierta,Alta,2026-03-27,12.2
+Atlas,Abierta,Baja,2026-05-09,22.9
+Atlas,Abierta,Crítica,2026-01-07,19.5
+Atlas,Resuelta,Baja,2026-01-04,20.6
+Atlas,En curso,Media,2026-03-26,20.9
+Boreal,En curso,Media,2026-05-20,7.4
+Boreal,En curso,Alta,2026-02-09,1.3
+Boreal,Cancelada,Media,2026-04-26,3.8
+Boreal,En curso,Media,2026-05-17,
+Atlas,Resuelta,Media,2026-02-22,20.8
+Atlas,En curso,Alta,2026-04-13,7.4
+Atlas,Abierta,Baja,2026-04-10,6.4
+Córdoba,Cancelada,Alta,2026-05-12,20.8
+Boreal,Resuelta,Alta,2026-03-18,21.9
+Atlas,Abierta,Media,2026-01-05,19.5
+Boreal,En curso,Crítica,2026-03-09,16.3
+Boreal,En curso,Media,2026-04-25,21.0
+Atlas,Resuelta,Alta,2026-06-24,6.3
+Atlas,En curso,Media,2026-06-01,16.8
+Atlas,Abierta,Media,2026-01-04,9.2
+Boreal,Resuelta,Media,2026-02-16,11.6
+Boreal,Resuelta,Crítica,2026-05-02,12.6
+Boreal,Resuelta,Alta,2026-04-11,18.9
+Córdoba,En curso,Crítica,2026-04-27,23.1
+Atlas,Resuelta,Media,2026-01-29,7.9
+Boreal,En curso,Alta,2026-02-02,
+Atlas,Resuelta,Alta,2026-04-12,14.3
+Atlas,Resuelta,Baja,2026-02-18,15.9
+Atlas,Resuelta,Media,2026-04-02,11.7
+Atlas,Resuelta,Media,2026-06-07,12.8
+Boreal,En curso,Media,2026-03-30,8.5
+Córdoba,En curso,Alta,2026-04-10,8.1
+Boreal,Abierta,Media,2026-01-11,10.6
+Atlas,Resuelta,Alta,2026-04-28,17.6
+Boreal,Cancelada,Crítica,2026-02-09,16.8
+Boreal,Resuelta,Media,2026-01-01,16.0
+Atlas,Cancelada,Baja,2026-03-02,16.4
+Atlas,Abierta,Media,2026-05-23,10.5
+Boreal,En curso,Baja,2026-03-14,14.5
+Boreal,Abierta,Media,2026-04-25,3.6
+Córdoba,Resuelta,Media,2026-02-20,9.6
+Atlas,Abierta,Alta,2026-05-27,21.1
+Atlas,Abierta,Alta,2026-05-30,
+Boreal,Abierta,Alta,2026-02-26,4.8
+Córdoba,Cancelada,Alta,2026-05-30,12.2
+Córdoba,Abierta,Alta,2026-02-11,18.7
+Boreal,Resuelta,Media,2026-02-02,5.9
+Atlas,Abierta,Media,2026-06-27,5.3
+Boreal,Resuelta,Baja,2026-06-06,4.4
+Atlas,En curso,Baja,2026-04-27,9.3
+Atlas,En curso,Alta,2026-06-08,23.2
+Atlas,Cancelada,Crítica,2026-06-07,19.6
+Boreal,Cancelada,Baja,2026-05-08,17.4
+Atlas,Abierta,Media,2026-02-14,20.9
+Atlas,Resuelta,Media,2026-01-17,11.8
+Atlas,En curso,Media,2026-04-18,10.4
+Boreal,Abierta,Alta,2026-04-29,15.8
+Atlas,Resuelta,Crítica,2026-05-10,23.6
+Córdoba,Abierta,Alta,2026-05-14,20.0
+Córdoba,En curso,Alta,2026-06-13,
+Boreal,Cancelada,Media,2026-02-09,6.4
+Córdoba,En curso,Alta,2026-01-10,18.4
+Atlas,En curso,Baja,2026-05-03,12.3
+Atlas,Resuelta,Crítica,2026-01-09,19.1
+Atlas,Abierta,Alta,2026-03-13,21.3
+Atlas,Abierta,Media,2026-05-23,1.3
+Atlas,En curso,Media,2026-05-28,21.2
+Atlas,Cancelada,Baja,2026-03-03,14.9
+Boreal,Abierta,Media,2026-05-27,9.6
+Atlas,Resuelta,Baja,2026-06-25,6.0
+Atlas,Resuelta,Alta,2026-02-06,12.6
+Atlas,En curso,Alta,2026-02-13,22.7
+Atlas,Resuelta,Alta,2026-05-17,14.5
+Atlas,Abierta,Crítica,2026-05-11,23.8
+Boreal,Abierta,Baja,2026-02-07,23.2
+Atlas,Abierta,Media,2026-03-18,5.1
+Atlas,Abierta,Media,2026-01-05,
+Boreal,Cancelada,Baja,2026-02-17,1.4
+Boreal,En curso,Baja,2026-02-17,15.7
+Boreal,Resuelta,Crítica,2026-06-16,12.5
+Atlas,Resuelta,Alta,2026-04-29,3.6
+Córdoba,En curso,Baja,2026-06-28,22.9
+Boreal,Resuelta,Baja,2026-01-29,18.7
+Boreal,Resuelta,Media,2026-03-28,1.3
+Atlas,En curso,Media,2026-05-15,6.3
+Boreal,Abierta,Media,2026-02-15,23.4
+Córdoba,Resuelta,Crítica,2026-06-27,10.1
+Boreal,Cancelada,Media,2026-01-16,5.0
+Atlas,Resuelta,Alta,2026-04-11,11.5
+Boreal,Resuelta,Crítica,2026-02-09,12.9
+Atlas,Abierta,Alta,2026-06-20,15.7
+Atlas,En curso,Alta,2026-03-28,16.4
+Boreal,Abierta,Baja,2026-04-13,10.8
+Córdoba,Abierta,Media,2026-02-14,
+Atlas,En curso,Media,2026-04-14,23.2
+Atlas,Abierta,Crítica,2026-01-12,11.1
+Boreal,En curso,Alta,2026-04-18,15.6
+Boreal,Abierta,Media,2026-02-04,10.7
+Atlas,Abierta,Media,2026-03-21,20.4
+Atlas,Abierta,Crítica,2026-01-31,15.1
+Boreal,Resuelta,Alta,2026-02-26,9.8
+Atlas,Resuelta,Baja,2026-04-14,11.9
+Córdoba,Resuelta,Crítica,2026-03-20,15.8
+Atlas,Abierta,Media,2026-04-19,3.7
+Córdoba,Resuelta,Media,2026-05-15,9.9
+Atlas,Resuelta,Media,2026-06-20,13.0
+Córdoba,En curso,Baja,2026-01-02,5.0
+Atlas,Cancelada,Alta,2026-04-07,14.2
+Atlas,Resuelta,Baja,2026-02-28,2.7
+Boreal,Resuelta,Baja,2026-06-26,4.7
+Atlas,Abierta,Media,2026-04-07,
+Atlas,En curso,Media,2026-04-09,10.3
+Boreal,Resuelta,Media,2026-05-26,6.7
+Atlas,Cancelada,Media,2026-04-16,17.8
+Atlas,Resuelta,Alta,2026-05-19,20.1
+Boreal,En curso,Alta,2026-05-14,22.8
+Atlas,En curso,Alta,2026-03-27,10.7
+Boreal,Abierta,Crítica,2026-06-29,20.0
+Córdoba,Resuelta,Alta,2026-02-01,19.2
+Boreal,Resuelta,Alta,2026-04-04,15.9
+Atlas,Cancelada,Media,2026-04-26,14.7
+Atlas,Abierta,Alta,2026-06-11,5.1
+Córdoba,Resuelta,Alta,2026-02-01,6.4
+Atlas,Resuelta,Alta,2026-01-15,1.2
+Córdoba,Abierta,Baja,2026-01-18,16.7
+Córdoba,Abierta,Baja,2026-06-30,7.4
+Atlas,Resuelta,Baja,2026-05-19,15.4
+Atlas,Resuelta,Alta,2026-03-31,
+Boreal,Resuelta,Media,2026-04-08,15.0
+Atlas,Abierta,Media,2026-02-15,2.1
+Boreal,Resuelta,Media,2026-02-02,16.6
+Córdoba,Resuelta,Media,2026-04-17,18.5
+Atlas,En curso,Media,2026-01-13,5.1
+Atlas,Resuelta,Alta,2026-02-24,14.2
+Atlas,Abierta,Crítica,2026-02-10,7.0
+Atlas,Resuelta,Media,2026-06-21,3.7
+Atlas,En curso,Alta,2026-06-23,7.4
+Córdoba,Cancelada,Media,2026-04-14,9.5
+Córdoba,Resuelta,Alta,2026-06-16,1.9
+Córdoba,Abierta,Baja,2026-04-18,7.9
+Córdoba,Abierta,Baja,2026-04-09,15.7
+Boreal,Resuelta,Media,2026-06-25,17.3
+Atlas,En curso,Alta,2026-04-27,10.1
+Atlas,Resuelta,Media,2026-04-13,1.9
+Atlas,Resuelta,Crítica,2026-03-04,
+Boreal,Abierta,Alta,2026-03-19,15.1
+Atlas,En curso,Alta,2026-02-13,22.0
+Atlas,Abierta,Alta,2026-04-26,15.1
+Atlas,Resuelta,Crítica,2026-03-03,6.8
+Boreal,Cancelada,Crítica,2026-01-15,7.6
+Atlas,Abierta,Media,2026-06-30,7.8
+Boreal,Abierta,Media,2026-05-08,18.5
+Atlas,Resuelta,Alta,2026-05-01,1.5
+Córdoba,Abierta,Media,2026-03-08,22.2
+Atlas,Resuelta,Media,2026-03-30,2.2
+Atlas,Resuelta,Alta,2026-01-05,3.3
+Atlas,Resuelta,Baja,2026-03-26,10.4
+Boreal,Resuelta,Alta,2026-05-19,18.0
+Córdoba,Abierta,Alta,2026-01-28,18.5
+Atlas,Abierta,Crítica,2026-05-26,23.0
+Boreal,Abierta,Media,2026-06-27,3.8
+Córdoba,Abierta,Media,2026-05-18,
+Boreal,Cancelada,Baja,2026-03-22,11.8
+Córdoba,Resuelta,Alta,2026-04-13,20.5
+Boreal,Abierta,Media,2026-05-24,14.3
+Boreal,En curso,Media,2026-03-05,15.8
+Córdoba,En curso,Media,2026-02-25,23.1
+Boreal,Abierta,Crítica,2026-06-22,23.0
+Atlas,Abierta,Alta,2026-04-05,7.5
+Atlas,Abierta,Alta,2026-05-03,7.8
+Atlas,Abierta,Alta,2026-03-26,10.6
+Córdoba,Resuelta,Media,2026-03-29,9.4
+Atlas,En curso,Media,2026-06-03,12.9
+Córdoba,Abierta,Alta,2026-01-29,18.0
+Atlas,Resuelta,Baja,2026-06-25,22.3
+Córdoba,Resuelta,Media,2026-04-14,4.0
+Boreal,Resuelta,Crítica,2026-03-23,7.0
+Boreal,Abierta,Alta,2026-06-08,9.0
+Córdoba,Abierta,Crítica,2026-03-15,
+Atlas,Resuelta,Crítica,2026-01-28,21.1
+Atlas,Resuelta,Baja,2026-06-12,14.1
+Atlas,En curso,Media,2026-06-06,19.5
+Córdoba,En curso,Alta,2026-01-08,10.4
+Boreal,Abierta,Media,2026-01-19,6.7
+Boreal,En curso,Media,2026-05-23,2.2
+Atlas,Resuelta,Alta,2026-03-28,23.6
+Boreal,Resuelta,Media,2026-02-24,16.1
+Boreal,Abierta,Baja,2026-01-29,23.7
+Boreal,Abierta,Media,2026-03-30,10.3
+Córdoba,Abierta,Baja,2026-04-23,6.4
+Boreal,En curso,Alta,2026-03-11,22.2
+Córdoba,Resuelta,Alta,2026-06-02,21.8
+Boreal,En curso,Media,2026-02-06,1.0
+Boreal,Resuelta,Media,2026-06-09,7.8
+Atlas,Abierta,Alta,2026-06-11,12.7
+Atlas,En curso,Alta,2026-06-17,
+Córdoba,Abierta,Alta,2026-04-20,20.5
+Boreal,Resuelta,Media,2026-02-13,23.4
+Atlas,Abierta,Media,2026-04-13,8.0
+Boreal,Abierta,Alta,2026-04-08,20.4
+Atlas,Resuelta,Alta,2026-01-30,10.9
+Boreal,Abierta,Crítica,2026-03-22,20.6
+Atlas,Abierta,Alta,2026-06-01,15.4
+Atlas,Abierta,Media,2026-02-09,6.3
+Boreal,Abierta,Crítica,2026-01-04,2.4
+Atlas,En curso,Media,2026-06-28,9.8
+Córdoba,Resuelta,Crítica,2026-04-02,2.5
+Boreal,En curso,Media,2026-01-01,14.5
+Córdoba,Resuelta,Media,2026-02-10,9.1
+Atlas,Abierta,Media,2026-04-18,16.8
+Atlas,Resuelta,Crítica,2026-05-24,16.5
+Atlas,Cancelada,Baja,2026-02-18,7.8
+Atlas,Abierta,Media,2026-01-21,
+Boreal,Resuelta,Baja,2026-02-20,17.9
+Atlas,Abierta,Media,2026-01-27,6.5
+Atlas,Cancelada,Alta,2026-05-07,1.5
+Atlas,Cancelada,Media,2026-06-12,12.1
+Atlas,Resuelta,Media,2026-06-12,12.2
+Córdoba,Abierta,Media,2026-03-30,18.3
+Boreal,Resuelta,Crítica,2026-03-11,20.9
+Córdoba,Resuelta,Media,2026-01-14,2.3
+Atlas,Resuelta,Alta,2026-01-22,20.7
+Atlas,En curso,Alta,2026-05-28,13.9
+Boreal,En curso,Media,2026-01-27,11.9
+Boreal,Abierta,Media,2026-03-31,1.1
+Boreal,Abierta,Media,2026-03-03,20.2
+Atlas,Resuelta,Baja,2026-05-30,17.3
+Córdoba,Abierta,Alta,2026-04-10,6.1
+Boreal,Resuelta,Alta,2026-02-19,5.5
+Boreal,En curso,Alta,2026-02-11,
+Boreal,Resuelta,Alta,2026-01-23,1.2
+Atlas,Abierta,Baja,2026-03-23,14.2
+Atlas,Abierta,Baja,2026-05-20,16.8
+Atlas,Resuelta,Media,2026-04-02,5.3
+Córdoba,En curso,Media,2026-03-24,10.7
+Atlas,Abierta,Alta,2026-04-15,8.9
+Atlas,En curso,Media,2026-05-24,13.9
+Boreal,Resuelta,Media,2026-01-22,13.6
+Boreal,Resuelta,Crítica,2026-01-17,14.4
+Córdoba,Abierta,Alta,2026-05-04,18.7
+Boreal,Abierta,Media,2026-06-24,18.4
+Boreal,Resuelta,Alta,2026-05-14,15.6
+Boreal,En curso,Baja,2026-03-25,15.0
+Atlas,En curso,Media,2026-05-03,16.1
+Atlas,Cancelada,Media,2026-03-18,10.0
+Atlas,Abierta,Alta,2026-03-27,6.5
+Atlas,Cancelada,Baja,2026-02-13,
+Atlas,Resuelta,Baja,2026-05-26,8.7
+Córdoba,Cancelada,Media,2026-01-24,19.9
+Boreal,Resuelta,Alta,2026-04-22,12.8
+Atlas,Resuelta,Alta,2026-02-21,8.9
+Atlas,Resuelta,Crítica,2026-05-25,12.6
+Atlas,Cancelada,Crítica,2026-02-18,12.4
+Atlas,Resuelta,Media,2026-02-17,4.5
+Atlas,Abierta,Baja,2026-04-09,4.5
+Atlas,Cancelada,Baja,2026-04-05,12.6
+Atlas,Abierta,Media,2026-01-30,14.2
+Córdoba,Abierta,Baja,2026-05-02,16.2
+Atlas,En curso,Media,2026-03-12,9.6
+Córdoba,Cancelada,Media,2026-05-19,17.3
+Boreal,Cancelada,Alta,2026-06-01,23.6
+Boreal,Resuelta,Baja,2026-01-01,15.3
+Atlas,Resuelta,Media,2026-02-17,23.1
+Atlas,Resuelta,Alta,2026-01-22,
+Boreal,En curso,Media,2026-06-02,11.0
+Atlas,Abierta,Media,2026-02-20,10.3
+Atlas,Cancelada,Crítica,2026-02-11,9.2
+Córdoba,Cancelada,Media,2026-06-15,6.5
+Córdoba,Resuelta,Alta,2026-04-03,10.4
+Córdoba,En curso,Alta,2026-06-14,11.1
+Boreal,Resuelta,Baja,2026-03-29,2.3
+Atlas,Resuelta,Media,2026-03-14,16.1
+Atlas,En curso,Crítica,2026-04-29,10.1
+Córdoba,Cancelada,Alta,2026-03-01,8.8
+Boreal,Resuelta,Crítica,2026-06-22,18.9
+Atlas,Resuelta,Media,2026-02-15,11.3
+Atlas,Resuelta,Alta,2026-02-28,21.0
+Atlas,Resuelta,Alta,2026-02-05,5.7
+Córdoba,Resuelta,Baja,2026-02-07,5.8
+Atlas,Abierta,Media,2026-01-16,19.5
+Atlas,Cancelada,Media,2026-03-17,
+Boreal,Abierta,Media,2026-06-22,10.1
+Atlas,En curso,Crítica,2026-04-11,10.1
+Boreal,En curso,Alta,2026-05-27,1.7
+Córdoba,En curso,Alta,2026-05-01,12.6
+Atlas,Abierta,Baja,2026-05-01,11.6
+Córdoba,Resuelta,Alta,2026-04-03,5.9
+Boreal,Resuelta,Media,2026-06-05,5.5
+Córdoba,Abierta,Media,2026-02-14,4.3
+Córdoba,Resuelta,Crítica,2026-01-18,11.0
+Boreal,Resuelta,Baja,2026-03-01,22.6
+Córdoba,En curso,Alta,2026-05-10,4.6
+Atlas,Abierta,Alta,2026-04-08,4.4
+Atlas,En curso,Media,2026-03-31,5.8
+Atlas,Abierta,Media,2026-02-21,15.6
+Atlas,Cancelada,Media,2026-02-27,12.0
+Córdoba,Resuelta,Alta,2026-05-19,15.9
+Atlas,Abierta,Media,2026-04-21,
+Boreal,Resuelta,Alta,2026-03-19,12.4
+Atlas,En curso,Media,2026-01-20,7.2
+Atlas,Resuelta,Media,2026-02-03,20.4
+Atlas,Resuelta,Alta,2026-05-27,20.6
+Boreal,Cancelada,Alta,2026-02-02,10.2
+Atlas,En curso,Media,2026-05-13,23.4
+Boreal,Resuelta,Crítica,2026-02-18,5.5
+Atlas,Abierta,Alta,2026-06-09,16.4
+Atlas,En curso,Alta,2026-01-23,17.3
+Atlas,Resuelta,Baja,2026-04-07,5.6
+Atlas,En curso,Media,2026-02-08,3.4
+Atlas,Abierta,Baja,2026-03-08,13.7
+Atlas,Resuelta,Crítica,2026-01-31,9.2
+Atlas,Abierta,Baja,2026-01-31,21.8
+Boreal,Resuelta,Alta,2026-04-01,13.9
+Córdoba,Abierta,Baja,2026-02-11,20.1
+Atlas,Abierta,Alta,2026-03-19,
+Atlas,En curso,Alta,2026-03-13,17.0
+Atlas,En curso,Crítica,2026-01-14,16.5
+Boreal,Resuelta,Media,2026-02-07,2.2
+Atlas,Abierta,Media,2026-06-29,21.8
+Atlas,Resuelta,Media,2026-01-28,6.9
+Atlas,Abierta,Alta,2026-05-03,2.3
+Boreal,Abierta,Crítica,2026-02-08,22.3
+Boreal,Abierta,Alta,2026-02-24,22.7
+Córdoba,Cancelada,Baja,2026-06-20,7.2
+Córdoba,Abierta,Media,2026-02-14,18.6
+Atlas,Abierta,Media,2026-06-20,15.7
+Córdoba,Abierta,Alta,2026-01-13,23.4
+Atlas,Abierta,Media,2026-04-27,7.0
+Boreal,Resuelta,Alta,2026-01-19,19.9
+Atlas,En curso,Alta,2026-06-26,23.2
+Córdoba,Resuelta,Alta,2026-02-23,23.9
+Atlas,Abierta,Media,2026-03-13,
+Atlas,En curso,Alta,2026-02-04,22.8
+Atlas,Abierta,Baja,2026-02-09,16.6
+Atlas,Resuelta,Media,2026-05-13,13.6
+Boreal,Resuelta,Alta,2026-04-06,11.0
+Atlas,Abierta,Alta,2026-03-03,13.6
+Boreal,Abierta,Crítica,2026-04-21,19.6
+Atlas,Abierta,Media,2026-04-28,14.7
+Atlas,Abierta,Alta,2026-03-04,21.5
+Atlas,Resuelta,Media,2026-03-31,21.6
+Atlas,Abierta,Media,2026-03-07,22.5
+Boreal,En curso,Media,2026-06-27,13.6
+Córdoba,Abierta,Alta,2026-03-12,22.3
+Atlas,En curso,Media,2026-05-23,14.4
+Atlas,Abierta,Crítica,2026-01-30,11.1
+Atlas,Resuelta,Media,2026-02-17,4.6
+Boreal,Abierta,Media,2026-06-07,19.9
+Atlas,Resuelta,Media,2026-01-08,
+Córdoba,Abierta,Media,2026-02-08,11.1
+Córdoba,Resuelta,Alta,2026-04-28,4.9
+Atlas,En curso,Alta,2026-03-01,3.5
+Atlas,Cancelada,Alta,2026-02-09,9.3
+Atlas,En curso,Media,2026-04-21,13.8
+Atlas,Resuelta,Media,2026-02-27,8.7
+Boreal,Resuelta,Media,2026-01-17,6.7
+Boreal,En curso,Crítica,2026-04-16,9.0
+Boreal,Abierta,Baja,2026-02-24,12.5
+Atlas,Cancelada,Alta,2026-01-23,18.3
+Atlas,En curso,Media,2026-01-17,11.6
+Atlas,En curso,Media,2026-06-25,13.2
+Córdoba,Abierta,Media,2026-06-22,2.4
+Boreal,Resuelta,Crítica,2026-06-27,21.2
+Boreal,En curso,Media,2026-03-08,17.7
+Boreal,En curso,Alta,2026-02-19,22.2
+Córdoba,Resuelta,Alta,2026-06-11,
+Boreal,Cancelada,Alta,2026-04-07,1.5
+Atlas,En curso,Alta,2026-06-08,21.0
+Boreal,Resuelta,Baja,2026-01-18,19.8
+Córdoba,Abierta,Alta,2026-04-20,21.2
+Boreal,Cancelada,Baja,2026-04-02,1.9
+Atlas,Resuelta,Media,2026-02-14,6.2
+Atlas,En curso,Crítica,2026-05-15,9.2
+Atlas,Resuelta,Alta,2026-05-29,16.6
+Boreal,Abierta,Alta,2026-02-01,19.7
+Atlas,Resuelta,Media,2026-02-26,6.7
+Boreal,Resuelta,Baja,2026-05-05,9.3
+Boreal,Abierta,Media,2026-06-12,15.0
+Atlas,En curso,Alta,2026-04-09,15.8
+Córdoba,Resuelta,Crítica,2026-04-01,8.3
+Córdoba,Abierta,Alta,2026-01-22,13.0
+Atlas,Abierta,Alta,2026-01-30,2.9
+Boreal,Abierta,Baja,2026-04-20,
+Boreal,En curso,Baja,2026-03-13,15.9
+Atlas,Abierta,Alta,2026-05-22,16.4
+Atlas,Abierta,Media,2026-04-14,20.4
+Boreal,En curso,Baja,2026-06-01,18.6
+Atlas,Resuelta,Media,2026-02-26,17.7
+Córdoba,En curso,Alta,2026-01-24,12.3
+Atlas,En curso,Media,2026-01-20,12.2
+Atlas,Resuelta,Media,2026-01-19,9.2
+Atlas,Resuelta,Crítica,2026-03-02,9.1
+Córdoba,Resuelta,Baja,2026-05-31,20.9
+Atlas,Resuelta,Baja,2026-01-16,8.9
+Atlas,En curso,Media,2026-03-31,19.4
+Córdoba,Abierta,Crítica,2026-03-07,23.3
+Boreal,En curso,Media,2026-02-19,7.3
+Atlas,Abierta,Media,2026-01-08,12.8
+Atlas,Cancelada,Baja,2026-03-19,12.9
+Córdoba,Resuelta,Alta,2026-05-21,
+Atlas,Resuelta,Crítica,2026-04-19,18.8
+Atlas,Abierta,Alta,2026-06-04,2.3
+Córdoba,Abierta,Media,2026-03-07,15.2
+Boreal,Resuelta,Baja,2026-04-17,3.2
+Atlas,Abierta,Media,2026-04-01,2.7
+Atlas,Resuelta,Baja,2026-01-04,15.6
+Boreal,En curso,Media,2026-06-04,2.6
+Córdoba,En curso,Baja,2026-01-18,3.2
+Boreal,Abierta,Alta,2026-01-22,14.0
+Boreal,Resuelta,Media,2026-06-15,19.0
+Córdoba,Abierta,Alta,2026-05-09,5.3
+Atlas,En curso,Baja,2026-04-28,11.4
+Córdoba,Resuelta,Alta,2026-06-23,8.3
+Atlas,Abierta,Alta,2026-02-15,8.4
+Boreal,Abierta,Baja,2026-05-19,13.4
+Atlas,Resuelta,Media,2026-05-06,9.3
+Córdoba,Abierta,Alta,2026-05-26,
+Atlas,Cancelada,Media,2026-02-10,22.5
+Atlas,Resuelta,Media,2026-06-22,9.2
+Atlas,Resuelta,Media,2026-05-14,3.5
+Boreal,Abierta,Media,2026-06-17,17.9
+Boreal,Resuelta,Crítica,2026-01-08,2.4
+Boreal,Resuelta,Alta,2026-05-18,8.4
+Atlas,Cancelada,Media,2026-04-24,23.7
+Atlas,Resuelta,Baja,2026-06-30,16.2
+Atlas,En curso,Alta,2026-06-13,22.7
+Atlas,Cancelada,Crítica,2026-02-18,14.5
+Atlas,Resuelta,Crítica,2026-04-22,15.0
+Boreal,En curso,Alta,2026-02-28,11.1
+Córdoba,Resuelta,Media,2026-06-05,2.2
+Atlas,Abierta,Alta,2026-01-10,8.5
+Boreal,Abierta,Media,2026-04-20,19.9
+Atlas,Resuelta,Baja,2026-01-23,17.8
+Córdoba,En curso,Baja,2026-01-25,
+Atlas,En curso,Alta,2026-01-03,20.0
+Atlas,Resuelta,Baja,2026-06-02,12.0
+Córdoba,Resuelta,Alta,2026-03-22,3.2
+Atlas,Resuelta,Baja,2026-03-27,22.1
+Boreal,Abierta,Media,2026-06-09,17.9
+Atlas,Abierta,Baja,2026-01-09,14.6
+Atlas,Cancelada,Baja,2026-04-13,12.4
+Córdoba,Resuelta,Alta,2026-05-16,3.8
+Boreal,Resuelta,Baja,2026-01-14,22.0
+Córdoba,En curso,Media,2026-05-19,23.7
+Atlas,Resuelta,Media,2026-04-07,11.3
+Córdoba,Abierta,Alta,2026-01-01,6.5
+Atlas,Resuelta,Media,2026-06-23,10.8
+Boreal,Resuelta,Media,2026-06-16,2.0
+Atlas,Resuelta,Media,2026-06-15,6.7
+Atlas,Abierta,Media,2026-02-17,24.0
+Atlas,Resuelta,Media,2026-04-24,
+Atlas,Resuelta,Media,2026-02-21,3.7
+Boreal,Resuelta,Alta,2026-03-10,21.9
+Atlas,Cancelada,Baja,2026-02-21,18.5
+Atlas,Cancelada,Baja,2026-02-08,16.8
+Boreal,Abierta,Crítica,2026-01-07,9.4
+Atlas,Cancelada,Crítica,2026-04-22,9.2
+Atlas,Abierta,Alta,2026-02-27,20.2
+Atlas,Abierta,Alta,2026-05-04,19.7
+Atlas,Abierta,Alta,2026-05-16,10.1
+Córdoba,Abierta,Media,2026-05-12,19.3
+Atlas,Resuelta,Baja,2026-05-01,7.4
+Atlas,Abierta,Baja,2026-01-21,10.9
+Boreal,En curso,Baja,2026-04-10,11.3
+Boreal,Abierta,Media,2026-04-21,5.7
+Córdoba,Resuelta,Media,2026-06-21,3.0
+Atlas,Resuelta,Baja,2026-03-24,11.7
+Córdoba,Abierta,Baja,2026-05-25,
+Córdoba,Abierta,Baja,2026-06-14,12.9
+Atlas,Cancelada,Baja,2026-02-08,17.9
+Boreal,Resuelta,Alta,2026-04-26,1.6
+Boreal,Resuelta,Alta,2026-06-23,11.7
+Boreal,Resuelta,Alta,2026-04-20,20.3
+Atlas,Resuelta,Baja,2026-01-14,5.2
+Atlas,Cancelada,Media,2026-06-24,10.8
+Boreal,Resuelta,Alta,2026-06-15,3.8
+Atlas,Resuelta,Alta,2026-03-10,2.1
+Boreal,Resuelta,Baja,2026-05-29,6.7
+Boreal,Resuelta,Alta,2026-02-03,18.1
+Atlas,Abierta,Media,2026-02-08,7.2
+Córdoba,Resuelta,Baja,2026-05-26,2.9
+Boreal,En curso,Crítica,2026-06-18,1.6
+Córdoba,Abierta,Media,2026-03-27,21.4
+Boreal,Abierta,Alta,2026-04-27,11.9
+Atlas,En curso,Baja,2026-05-06,
+Córdoba,En curso,Media,2026-05-27,19.8
+Atlas,Resuelta,Media,2026-01-01,10.2
+Atlas,Resuelta,Baja,2026-01-01,18.7
+Atlas,Abierta,Media,2026-06-06,21.8
+Atlas,Abierta,Media,2026-05-15,10.2
+Boreal,Resuelta,Alta,2026-03-30,2.1
+Atlas,Cancelada,Baja,2026-03-13,5.5
+Atlas,Resuelta,Baja,2026-04-27,7.8
+Atlas,Abierta,Media,2026-04-22,20.3
+Córdoba,Abierta,Alta,2026-01-27,5.8
+Córdoba,Resuelta,Media,2026-01-01,3.7
+Córdoba,Abierta,Media,2026-02-21,22.0
+Atlas,Resuelta,Alta,2026-05-11,20.3
+Córdoba,Resuelta,Baja,2026-06-10,4.1
+Córdoba,Resuelta,Baja,2026-01-03,4.7
+Atlas,Resuelta,Baja,2026-06-06,22.2
+Boreal,Resuelta,Baja,2026-01-02,
+Atlas,En curso,Crítica,2026-06-09,9.3
+Boreal,En curso,Alta,2026-01-11,3.4
+Atlas,Resuelta,Media,2026-06-21,7.2
+Boreal,Abierta,Media,2026-04-12,6.8
+Atlas,En curso,Baja,2026-01-07,20.3
+Boreal,Abierta,Media,2026-02-14,20.2
+Atlas,Abierta,Media,2026-01-15,7.8
+Córdoba,Cancelada,Media,2026-02-17,14.4
+Boreal,Abierta,Crítica,2026-02-01,16.6
+Atlas,Resuelta,Alta,2026-02-18,10.1
+Córdoba,Resuelta,Alta,2026-04-17,17.9
+Córdoba,Cancelada,Alta,2026-06-07,12.6
+Boreal,Abierta,Media,2026-01-19,4.2
+Boreal,Resuelta,Alta,2026-01-20,8.6
+Atlas,Resuelta,Media,2026-01-26,4.0
+Córdoba,Resuelta,Media,2026-01-16,15.2
+Boreal,Abierta,Media,2026-04-27,
+Atlas,Cancelada,Media,2026-05-30,10.4
+Boreal,Abierta,Alta,2026-04-23,6.1
+Boreal,Abierta,Alta,2026-05-24,2.5
+Atlas,Abierta,Media,2026-03-12,19.7
+Atlas,Abierta,Media,2026-02-20,1.0
+Atlas,Resuelta,Baja,2026-05-25,3.9
+Atlas,En curso,Media,2026-04-11,5.3
+Atlas,En curso,Media,2026-03-27,1.7
+Atlas,Cancelada,Media,2026-03-31,21.0
+Córdoba,Abierta,Media,2026-05-04,8.4
+Córdoba,Abierta,Media,2026-01-02,8.8
+Atlas,Abierta,Media,2026-05-09,18.5

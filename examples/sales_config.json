@@ -1,0 +1,97 @@
+{
+  "report": {
+    "title": "Sales performance",
+    "subtitle": "Revenue review | Synthetic demonstration data",
+    "template": "detailed",
+    "include_table_of_contents": false
+  },
+  "kpis": [
+    {
+      "id": "count",
+      "label": "Transactions",
+      "operation": "count_rows"
+    },
+    {
+      "id": "revenue",
+      "label": "Revenue",
+      "operation": "sum",
+      "column": "revenue",
+      "unit": "EUR",
+      "comparison": 1000000
+    },
+    {
+      "id": "average",
+      "label": "Average transaction",
+      "operation": "average",
+      "column": "revenue",
+      "unit": "EUR"
+    }
+  ],
+  "dataset": {
+    "columns": [
+      {
+        "source": "region",
+        "label": "Region"
+      },
+      {
+        "source": "product",
+        "label": "Product"
+      },
+      {
+        "source": "date",
+        "label": "Date"
+      },
+      {
+        "source": "revenue",
+        "label": "Revenue"
+      }
+    ]
+  },
+  "charts": [
+    {
+      "id": "regions",
+      "unit": "EUR",
+      "title": "Revenue by region",
+      "type": "horizontal_bar",
+      "group_by": "region",
+      "aggregation": "sum",
+      "column": "revenue"
+    },
+    {
+      "id": "trend",
+      "unit": "EUR",
+      "title": "Monthly revenue",
+      "type": "line",
+      "group_by": "date",
+      "time_granularity": "month",
+      "aggregation": "sum",
+      "column": "revenue"
+    }
+  ],
+  "tables": [
+    {
+      "id": "regional_table",
+      "title": "Revenue by region",
+      "group_by": "region",
+      "aggregation": "sum",
+      "column": "revenue",
+      "columns": [
+        "region",
+        "value"
+      ],
+      "include_total": true
+    },
+    {
+      "id": "products",
+      "title": "Revenue by product",
+      "group_by": "product",
+      "aggregation": "sum",
+      "column": "revenue",
+      "columns": [
+        "product",
+        "value"
+      ],
+      "include_total": true
+    }
+  ]
+}

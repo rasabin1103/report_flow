@@ -1,0 +1,12 @@
+# Security and operations
+Input files, JSON, cell text and logos are untrusted. No spreadsheet formula/macro execution, shell execution, external URL retrieval, user-selected HTTP filesystem paths or external LLM calls exist in the engine. HTTP errors omit raw parser traces and input values; access logs are disabled by the Docker launch command. Do not enable request-body logging upstream.
+
+Limits: file bytes, rows/columns, ZIP expanded bytes/entry count, config size, bounded component counts, categories, table rows/columns, cell text lengths, PDF page count, process concurrency, and processing wall time. Compressed XLSX sizes are inspected before OpenPyXL reads the archive. Macro payloads are rejected. Only cached formula values are read; missing caches become null with an explicit workbook warning. Encrypted/corrupt/unsupported inputs fail with sanitized errors.
+
+Images use strict base64 validation, format/dimension limits, Pillow bomb warnings treated as errors, full decode, RGB/RGBA pixel reconstruction and PNG re-encoding. XML/ZIP parsers should be kept patched. Logos do not accept paths or network locations. Cell strings are escaped before ReportLab paragraph markup. Matplotlib renders static images without pyplot shared state.
+
+Upload data and generated PDF bytes are request-scoped. Upload handles are explicitly closed, workbook handles close in finally blocks, and disposable workers terminate/join on error or timeout. Multipart parsing can use OS temporary spooling; configure a private ephemeral temp filesystem. The application stores no report/dataset cache. PDF font caches are independent of uploaded content.
+
+Standalone authentication is intentionally absent. Do not expose this directly to the public internet. A production gateway must implement authentication, authorization/tenant isolation, TLS, rate limits, upload and connection deadlines, body limits, concurrent connection limits, monitoring and quotas. Container resource limits constrain total memory/CPU; no portable worker RSS cap is claimed. A gateway must bound idle uploads because the processing timeout starts after upload receipt. The Compose service listens on loopback, runs non-root with read-only root filesystem, drops capabilities and uses temporary memory storage.
+
+Keep dependencies updated and scan images. Inspection returns five real sample rows; treat responses and PDFs as sensitive. No production deployment is performed by repository tooling.

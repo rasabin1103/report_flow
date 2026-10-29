@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "report": {
+    "title": "Informe ejecutivo de calidad",
+    "subtitle": "Análisis de incidencias | Datos de demostración",
+    "language": "es",
+    "author": "Arce Sabin Engineering"
+  },
+  "dataset": {
+    "columns": [
+      {
+        "source": "proyecto",
+        "label": "Proyecto",
+        "type": "string"
+      },
+      {
+        "source": "estado",
+        "label": "Estado",
+        "type": "string"
+      },
+      {
+        "source": "prioridad",
+        "label": "Prioridad",
+        "type": "string"
+      },
+      {
+        "source": "fecha_creacion",
+        "label": "Fecha de creación",
+        "type": "date"
+      },
+      {
+        "source": "horas",
+        "label": "Horas",
+        "type": "number"
+      }
+    ]
+  },
+  "filters": [
+    {
+      "column": "estado",
+      "operator": "not_equals",
+      "value": "Cancelada"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "total",
+      "label": "Total de incidencias",
+      "operation": "count_rows"
+    },
+    {
+      "id": "critical",
+      "label": "Incidencias críticas",
+      "operation": "count_rows",
+      "filters": [
+        {
+          "column": "prioridad",
+          "operator": "equals",
+          "value": "Crítica"
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "label": "Horas registradas",
+      "operation": "sum",
+      "column": "horas",
+      "unit": "h"
+    }
+  ],
+  "charts": [
+    {
+      "id": "projects",
+      "title": "Incidencias por proyecto",
+      "type": "bar",
+      "group_by": "proyecto"
+    },
+    {
+      "id": "priority",
+      "title": "Distribución por prioridad",
+      "type": "donut",
+      "group_by": "prioridad"
+    },
+    {
+      "id": "time",
+      "title": "Evolución mensual",
+      "type": "line",
+      "group_by": "fecha_creacion",
+      "time_granularity": "month"
+    }
+  ],
+  "tables": [
+    {
+      "id": "project_status",
+      "title": "Incidencias por proyecto y estado",
+      "group_by": [
+        "proyecto",
+        "estado"
+      ],
+      "aggregation": "count_rows",
+      "columns": [
+        "proyecto",
+        "estado",
+        "value"
+      ],
+      "max_rows": 30,
+      "include_total": true
+    }
+  ]
+}
