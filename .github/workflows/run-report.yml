@@ -1,0 +1,116 @@
+name: Run ReportFlow
+
+on:
+  workflow_dispatch:
+    inputs:
+      dataset:
+        description: 'Archivo .csv o .xlsx (adjunto de ASE, URL https o ruta del repo)'
+        required: true
+        type: string
+      title:
+        description: 'Titulo del informe'
+        required: false
+        type: string
+        default: ''
+      subtitle:
+        description: 'Subtitulo (opcional)'
+        required: false
+        type: string
+        default: ''
+      language:
+        description: 'Idioma del informe'
+        required: false
+        type: choice
+        default: es
+        options: [es, en]
+      template:
+        description: 'Plantilla'
+        required: false
+        type: choice
+        default: executive
+        options: [executive, detailed]
+      cover_style:
+        description: 'Portada'
+        required: false
+        type: choice
+        default: compact
+        options: [compact, full]
+      group_by:
+        description: 'Columna por la que agrupar (vacio = automatica)'
+        required: false
+        type: string
+        default: ''
+      metric:
+        description: 'Columna numerica a medir (vacio = automatica)'
+        required: false
+        type: string
+        default: ''
+      operation:
+        description: 'Calculo sobre la medida'
+        required: false
+        type: choice
+        default: sum
+        options: [sum, average, minimum, maximum, distinct_count]
+      date_column:
+        description: 'Columna de fecha para la evolucion (vacio = automatica)'
+        required: false
+        type: string
+        default: ''
+      config_json:
+        description: 'Avanzado: configuracion JSON completa (sustituye a lo anterior)'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: python -m pip install -e .
+
+      - name: Generate report
+        env:
+          RF_DATASET: ${{ inputs.dataset }}
+          RF_TITLE: ${{ inputs.title }}
+          RF_SUBTITLE: ${{ inputs.subtitle }}
+          RF_LANGUAGE: ${{ inputs.language }}
+          RF_TEMPLATE: ${{ inputs.template }}
+          RF_COVER: ${{ inputs.cover_style }}
+          RF_GROUP_BY: ${{ inputs.group_by }}
+          RF_METRIC: ${{ inputs.metric }}
+          RF_OPERATION: ${{ inputs.operation }}
+          RF_DATE_COLUMN: ${{ inputs.date_column }}
+          RF_CONFIG: ${{ inputs.config_json }}
+        run: python tools/ase_run.py
+
+      - name: Upload report (HTML with the embedded PDF)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-report
+          path: report.html
+
+      - name: Upload PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: result-pdf
+          path: report.pdf
+          if-no-files-found: ignore
+
+      - name: Upload result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: request-result
+          path: request_result.json
+          if-no-files-found: ignore

@@ -1,0 +1,13 @@
+[
+  {"key":"dataset","type":"file","label":"Archivo de datos","required":true,"description":"Excel (.xlsx) o CSV, hasta 2 MiB. La primera fila debe tener los nombres de columna."},
+  {"key":"title","type":"text","label":"Título del informe","required":false,"description":"Si lo dejas vacío se usa «Informe de datos»."},
+  {"key":"subtitle","type":"text","label":"Subtítulo","required":false},
+  {"key":"language","type":"choice","label":"Idioma del informe","required":false,"options":["es","en"],"default":"es"},
+  {"key":"template","type":"choice","label":"Plantilla","required":false,"options":["executive","detailed"],"default":"executive","description":"executive = concisa · detailed = más detalle"},
+  {"key":"cover_style","type":"choice","label":"Portada","required":false,"options":["compact","full"],"default":"compact"},
+  {"key":"group_by","type":"text","label":"Agrupar por (columna)","required":false,"description":"Vacío = se elige sola la mejor columna de texto."},
+  {"key":"metric","type":"text","label":"Medida (columna numérica)","required":false,"description":"Vacío = primera columna numérica; si no hay, se cuentan registros."},
+  {"key":"operation","type":"choice","label":"Cálculo","required":false,"options":["sum","average","minimum","maximum","distinct_count"],"default":"sum"},
+  {"key":"date_column","type":"text","label":"Evolución por fecha (columna)","required":false,"description":"Vacío = primera columna de fecha."},
+  {"key":"config_json","type":"json","label":"Configuración avanzada (JSON)","required":false,"description":"Esquema 1.0 de ReportFlow. Si lo rellenas, sustituye a las opciones anteriores."}
+]
